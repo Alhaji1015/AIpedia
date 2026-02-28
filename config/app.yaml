@@ -1,0 +1,10 @@
+command: ["python", "app.py"]
+
+env:
+  - name: GRADIO_SERVER_NAME
+    value: "0.0.0.0"
+  - name: GRADIO_SERVER_PORT
+    value: "8000"
+
+resources:
+  sql_warehouse_id: "your-warehouse-id"  # Optional: if you need SQL access

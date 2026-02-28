@@ -1,0 +1,138 @@
+# API Keys and Credentials
+*.env
+.env
+.env.local
+.env.*.local
+config/.env
+*.key
+*.pem
+*_api_key*
+*credentials*
+
+# Secrets
+secrets/
+.secrets/
+
+# Document Data (if sensitive)
+documents.json
+data/*.json
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+.ENV
+.env.bak
+.venv.bak
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Databricks
+.databricks/
+*.dbfs
+.dbutils/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+local_settings.py
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files (if large)
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+
+# Node modules (if using any JS tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Sensitive notebooks
+*_private.ipynb
+*_secret.ipynb
