@@ -7,7 +7,7 @@
 
 A production-ready Retrieval-Augmented Generation (RAG) chatbot built with Google Gemini AI and deployed on Databricks Apps. The system enables intelligent Q&A over your document corpus with source attribution and semantic search.
 
-**🌐 Live Demo:** [rag-chatbot-7474659359669446.aws.databricksapps.com](https://rag-chatbot-7474659359669446.aws.databricksapps.com/)
+**🌐 Live Demo:** [rag-chatbot-7474659359669446.aws.databricksapps.com](https://rag-chatbot-7474659359669446.aws.databricksapps.com/) |
 [Watch demo video](https://youtu.be/w1zpi4Z4n6c)
 ---
 
